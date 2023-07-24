@@ -31,7 +31,6 @@ Install all required plugin
 
 ```
 composer install
-npm run install
 ```
 
 Migration database
@@ -43,6 +42,7 @@ php artisan migrate
 Run project on the local
 ```
 php artisan serve
+php artisan storage:link
 ```
 ```
 npm run dev 
@@ -50,6 +50,7 @@ npm run dev
 
 Run project on the server
 ```
+php artisan storage:link
 npm run build 
 ```
 
