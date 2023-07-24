@@ -25,6 +25,12 @@ Vuez is a plugin designed to simplify the process of integrating Vue.js into a L
 
 GitHub Repository: https://github.com/arr2504/vuez
 
+Additionally, I have added the "maatwebsite/excel" package to enable easy Excel file upload and processing. With this package, developers can effortlessly handle Excel files in their Laravel applications, making it convenient for users to upload and work with Excel data.
+
+GitHub Repository: https://github.com/SpartnerNL/Laravel-Excel
+
+With this updated setup, the application now supports Excel file upload and processing using the "maatwebsite/excel" package, making it even more versatile and user-friendly.
+
 ## Installation
 
 Install all required plugin
