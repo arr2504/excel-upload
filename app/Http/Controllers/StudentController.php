@@ -79,14 +79,14 @@ class StudentController extends Controller
                 }
 
                 // Check if the student record already exists
-                $existingStudent = Student::where('name', $student_data['name'])
+                $existing_student = Student::where('name', $student_data['name'])
                     ->where('classroom_id', $student_data['classroom_id'])
                     ->where('level', $student_data['level'])
                     ->where('parent_contact', $student_data['parent_contact'])
                     ->exists();
 
                 // If data student not exist
-                if (!$existingStudent) {
+                if (!$existing_student) {
                     // Create a new student record
                     $addStudent[] = Student::create($student_data);
                     $success_rows++;
