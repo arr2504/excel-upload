@@ -1,0 +1,13 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Fonts
+@import url("https://fonts.bunny.net/css?family=poppins:300,600&display=swap");
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
