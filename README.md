@@ -21,15 +21,14 @@ This project have function like :
 ## I'am code using
 
 This code challenge was created using Laravel, Vue.js, and the Vuez plugin, which sets up the Vue environment in a Laravel project.
-Vuez is a plugin designed to simplify the process of integrating Vue.js into a Laravel application. It provides an easy-to-use setup for Vue.js and allows developers to leverage Vue components and features seamlessly within their Laravel projects.
 
-GitHub Repository: https://github.com/arr2504/vuez
+- Laravel 10
+- Vue.js
+- <a href="https://github.com/arr2504/vuez">Vuez</a>
+- <a href="https://github.com/SpartnerNL/Laravel-Excel">Maatwebsite/excel</a>
 
-Additionally, I have added the "maatwebsite/excel" package to enable easy Excel file upload and processing. With this package, developers can effortlessly handle Excel files in their Laravel applications, making it convenient for users to upload and work with Excel data.
+"Maatwebsite/excel" package to enable easy Excel file upload and processing. With this package, developers can effortlessly handle Excel files in their Laravel applications, making it convenient for users to upload and work with Excel data.
 
-GitHub Repository: https://github.com/SpartnerNL/Laravel-Excel
-
-With this updated setup, the application now supports Excel file upload and processing using the "maatwebsite/excel" package, making it even more versatile and user-friendly.
 
 ## Installation
 
